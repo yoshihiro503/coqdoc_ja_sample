@@ -1,0 +1,5 @@
+-R src JapaneseCoqdocSampleProject
+src/Hoge.v
+src/Piyo.v
+-custom "platex Proof.tex; platex Proof.tex" "Proof.tex $(VOFILES) $(VFILES:.v=.tex)" "Proof.dvi"
+-custom "dvipdfmx Proof.dvi" "Proof.dvi" Proof.pdf

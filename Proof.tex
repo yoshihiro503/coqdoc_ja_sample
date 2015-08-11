@@ -1,0 +1,22 @@
+\documentclass[12pt]{jreport}
+\usepackage[]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{fullpage}
+\usepackage{coqdoc}
+\usepackage{amsmath,amssymb}
+\begin{document}
+
+\title{証明報告書}
+\author{有限会社 ITプランニング\\システム検証部　証明支援系課\\今井宜洋}
+\date{\today}
+
+\maketitle
+
+\tableofcontents{}
+
+%% Coqソースコードを追加削除変更したときはこちらも変更してください
+\include{src/Hoge}
+\include{src/Piyo}
+
+\end{document}
+
