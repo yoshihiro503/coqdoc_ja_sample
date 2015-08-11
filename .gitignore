@@ -12,6 +12,6 @@ Makefile.bak
 *.toc
 src/*.tex
 
-html
-Proof.pdf
-Proof.dvi
+/html
+/Proof.pdf
+/Proof.dvi
